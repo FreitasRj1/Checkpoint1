@@ -1,41 +1,57 @@
 .house{
-    width: 50px;
-    height: 40px;
-    margin-left: -1420px;
+  width: 40px;
+  height: 40px;
+  padding-left: 8px;
+  padding-top: 8px;
+  display: inline-flex;
+  float: left;
 
 }
 
 .cabecalho{
-    background-color: crimson;
-    border-radius: 15px;
-    text-align: center;
-    text-overflow: clip;
-    padding: 1px;
-    border: 10px;
-    color: white;
+  background-color: crimson;
+  border-radius: 15px;
+  text-align: center;
+  text-overflow: clip;
+  padding: 1px;
+  border: 10px;
+  color: white;
 }
 
 .container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 2rem;
-  }
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
 
-  .produto {
-    background-color: #fff;
-    border-radius: 8px;
-    padding: 1rem;
-    margin-bottom: 2rem;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  }
+}
 
-  .titulo-produto {
-    font-size: 1.5rem;
-    color: #3e4095;
-    margin: 1rem 0;
-  }
+.produto {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
 
-  .descricao {
-    color: #555;
-    margin-bottom: 1rem;
-  }
+.titulo-produto {
+  display: inline-flex;
+  font-size: 1.5rem;
+  color: #3e4095;
+  margin: 1rem 0;
+}
+
+.descricao {
+  color: #555;
+  margin-bottom: 1rem;
+}
+
+.bandeira{
+  margin: 0.8rem 0;
+  display: inline-flex;
+  text-align: center;
+  float: right;
+  width: 10vh;
+  height: 6vh;
+  border: 1.5px solid black;
+  border-radius: 2px;
+}
