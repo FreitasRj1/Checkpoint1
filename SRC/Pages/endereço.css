@@ -47,8 +47,17 @@ a {
     text-align: center;
     border-radius: 2vh;
 }
+.localizacao_exata{
+    background-color: crimson;
+    width:55%;
+    text-align: center;
+    border-radius: 2vh;
+}
 
 .endereco{
     margin-left: 3vw;
     margin-top: 3vh;
+    border: solid crimson 4px; 
+    border-radius: 2vh;
+ 
 }
