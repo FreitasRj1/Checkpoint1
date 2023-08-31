@@ -4,15 +4,10 @@ body {
     background-color: #fff;
     color: #000;
     font-family: 'Inria Sans', sans-serif;
-    background-image: url(vinhoFundo2.webp);
+    
 }
 
-.navegaçao {
-    display: flex;
-    justify-content: space-between;
-    margin: 0px ;
-    padding: 0px;
-}
+
 
 .logo {
     color: white;
@@ -38,3 +33,31 @@ a {
     font-size: 16px;
 }
 
+.home_loja{
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px;
+    padding: 10px;
+    color: white;
+
+}
+#contato_vinicula{
+    background-color: crimson;
+    width:40%;
+    padding: 3vh;
+    text-align: center;
+    border-radius: 2vh;
+
+
+}
+
+
+#contato_membros{
+	margin-left: 3vw;
+    margin-top: 38vh;
+    background-color: crimson;
+    color: aliceblue;
+    padding: 20px;
+    width: 20%;
+    border-radius: 3vh;
+}

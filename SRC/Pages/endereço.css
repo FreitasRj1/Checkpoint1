@@ -4,15 +4,10 @@ body {
     background-color: #fff;
     color: #000;
     font-family: 'Inria Sans', sans-serif;
-    background-image: url(vinhoFundo2.webp);
+    
 }
 
-.navegaçao {
-    display: flex;
-    justify-content: space-between;
-    margin: 0px ;
-    padding: 0px;
-}
+
 
 .logo {
     color: white;
@@ -38,3 +33,22 @@ a {
     font-size: 16px;
 }
 
+.home_endereco{
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px;
+    padding: 10px;
+    color: white;
+
+}
+.localizacao{
+    background-color: crimson;
+    width:30%;
+    text-align: center;
+    border-radius: 2vh;
+}
+
+.endereco{
+    margin-left: 3vw;
+    margin-top: 3vh;
+}
