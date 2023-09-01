@@ -6,6 +6,23 @@ body {
     font-family: 'Inria Sans', sans-serif;
 }
 
+.titulo{
+    color:white;
+}
+
+.house{
+    width: 40px;
+    height: 40px;
+}
+
+.home_endereco{
+    display: flex;
+    justify-content: flex-start;
+    margin: 10px;
+    padding: 10px;
+    color: white;
+}
+
 .container {
     padding: 20px;
     text-align: center;
